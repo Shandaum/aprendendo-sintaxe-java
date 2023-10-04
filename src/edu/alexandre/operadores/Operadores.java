@@ -20,10 +20,11 @@ public class Operadores {
         System.out.println(resultado);
                 
         // + quando é com string serve como concatenação
-        String nomeCompleto = "LINGUAGEM" + "JAVA";
+        String nomeCompleto = "LINGUAGEM " + "JAVA";
         System.out.println(nomeCompleto);
 
-        //teste com dep
+        //teste de concatenar string e int com depuração 
+        // o ponto tem que ser numa linha de código, não pode ser comentário
         String concatenacao ="?"; 
 
         concatenacao = 1+1+1+"1";
@@ -40,6 +41,30 @@ public class Operadores {
         
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
+
+
+        //unários
+        int numero = 5;
+
+        numero = - numero; //deixar o numero negativo
+        System.out.println(numero);
+
+
+        numero = numero * -1; //deixar o numero positivo, pois só o + é considerado um operador matemático
+        System.out.println(numero);
+
+        numero ++; //incrementar o valor de 1 em 1
+        System.out.println(numero);
+
+        numero --; //decrementar o valor de 1 em 1
+        System.out.println(numero);
+
+
+        boolean variavel = true;
+        System.out.println(variavel);
+        
+        variavel = !variavel; //inverter varivel booleana
+        System.out.println(variavel);
 
     }
 }
