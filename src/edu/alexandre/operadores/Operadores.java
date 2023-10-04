@@ -66,5 +66,71 @@ public class Operadores {
         variavel = !variavel; //inverter varivel booleana
         System.out.println(variavel);
 
+
+
+        //jeito mais simples de fazer um IF com 1 condição
+        int a, b;
+        a = 6;
+        b = 6;
+
+        // condição recebe a é igual a b, caso sim escreve verdadeiro, caso não escreve falso
+        String condicao = a == b ? "verdadeiro" : "falso";
+        System.out.println(condicao);
+
+
+
+        //operadores relacionais
+        int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+        System.out.println("Numero 1 é igual ao numero 2? " + simNao);
+
+        simNao = numero1 > numero2;
+        System.out.println("Numero 1 é maior que numero 2? " + simNao);
+
+        simNao = numero1 < numero2;
+	    System.out.println("Numero 1 é menor que numero 2? " + simNao);
+
+        simNao = numero1 >= numero2;
+        System.out.println("Numero 1 é maior ou igual que numero 2? " + simNao);
+
+        simNao = numero1 <= numero2;
+        System.out.println("Numero 1 menor ou igual que numero 2? " + simNao);
+
+        simNao = numero1 != numero2;
+        System.out.println("Numero 1 é diferente de numero 2? " + simNao);
+    
+
+
+        String nome1 = "Alexandre";
+        String nome2 = "Alexandre";
+
+        System.out.println(nome1 == nome2);
+
+
+
+
+        //Operadores lógicos
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras!");
+        } 
+
+        if(condicao1 || condicao2){
+            System.out.println("Uma das duas condições é verdadeira!");
+        } 
+
+        if(condicao1 && (7>4)){
+            System.out.println("As duas condições são verdadeiras!");
+        } 
+
+        System.out.println("Fim do teste de operadores lógicos");
+
+
     }
+
+
 }
