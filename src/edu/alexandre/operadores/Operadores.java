@@ -12,12 +12,34 @@ public class Operadores {
         int modulo = 18 % 3; //resto
         double resultado = (10 * 7) + (20/4); //operação igual na matemática básica
 
-        System.out.print(soma);
-        System.out.print(subtracao);
-        System.out.print(multiplicacao);
-        System.out.print(divisao);
-        System.out.print(modulo);
-        System.out.print(resultado);
+        System.out.println(soma);
+        System.out.println(subtracao);
+        System.out.println(multiplicacao);
+        System.out.println(divisao);
+        System.out.println(modulo);
+        System.out.println(resultado);
                 
+        // + quando é com string serve como concatenação
+        String nomeCompleto = "LINGUAGEM" + "JAVA";
+        System.out.println(nomeCompleto);
+
+        //teste com dep
+        String concatenacao ="?"; 
+
+        concatenacao = 1+1+1+"1";
+        System.out.println(concatenacao);
+
+        concatenacao = 1+"1"+1+1;
+        System.out.println(concatenacao);
+        
+        concatenacao = 1+"1"+1+"1";
+        System.out.println(concatenacao);
+        
+        concatenacao = "1"+1+1+1;
+        System.out.println(concatenacao);
+        
+        concatenacao = "1"+(1+1+1);
+        System.out.println(concatenacao);
+
     }
 }
