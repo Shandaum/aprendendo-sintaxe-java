@@ -8,9 +8,6 @@ public class MinhaClasse {
 
         String primeiroNome = "Alexandre";
         String ultimoNome = "Veras";
-        int minhaIdade = 26;
-        boolean verdadeira = true;
-        double minhaAltura = 1.91;
 
         String nomecompleto = nomeCompleto(primeiroNome, ultimoNome);
 
