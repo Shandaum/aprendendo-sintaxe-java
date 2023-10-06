@@ -17,7 +17,15 @@ public class TipoVariaveis {
 
     //para a variavel ser reconhecida como constate a declaração é a seguinte
 
-        final int DATA_NASCIMENTO = 1997;
+    final int DATA_NASCIMENTO = 1997;
+
+        
+        
+    System.out.println(nome);
+    System.out.println(altura);
+    System.out.println(verdadeiro);
+    System.out.println(DATA_NASCIMENTO);
+
 
     }
 }
