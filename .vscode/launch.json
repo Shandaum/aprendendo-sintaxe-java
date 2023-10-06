@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.alexandre.anatomiadasclasses.MinhaClasse",
+            "projectName": "aprendendo-sintaxe-java_98639f4c"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.alexandre.metodos.Usuario",
+            "projectName": "aprendendo-sintaxe-java_98639f4c"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "edu.alexandre.operadores.Operadores",
+            "projectName": "aprendendo-sintaxe-java_98639f4c"
+        },
+        {
+            "type": "java",
+            "name": "SobreMim",
+            "request": "launch",
+            "mainClass": "edu.alexandre.terminaleargumentos.SobreMim",
+            "projectName": "aprendendo-sintaxe-java_98639f4c",
+            "args": [
+                "Alexandre",
+                "Veras",
+                "26",
+                "1.91"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "TipoVariaveis",
+            "request": "launch",
+            "mainClass": "edu.alexandre.tiposvariaveis.TipoVariaveis",
+            "projectName": "aprendendo-sintaxe-java_98639f4c"
+        }
+    ]
+}
